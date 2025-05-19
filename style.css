@@ -1,0 +1,161 @@
+.uppermid img{
+    height:500px;
+    width:1000px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headerlogo{
+    font-size: 24px;
+}
+
+.top{
+    background:#1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding:16px 400px 90px 230px;
+    
+}
+
+.header{
+    display:flex;
+    justify-content: space-between; 
+}
+
+.links{
+    display:flex;
+    gap:20px;
+}
+
+
+a{
+    text-decoration: none;
+    color:lightgray;
+}
+
+.somecontain{
+    display:flex;
+    flex-direction: column;
+    width: 410px;
+}
+
+.mainhead{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.uppermid{
+    display: flex;
+    flex-direction: row;
+    padding: 70px 0px 0px 0px;
+    gap:50px;
+}
+
+.topbutt{
+    width:80px;
+    background-color: #3882F6;
+    border-radius: 4px;
+    border:none;
+    color:white;
+    padding:8px;
+    font-size: 16px;
+
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+
+.midtitle{
+    text-align: center;
+    padding:30px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info img{
+    height: 200px;
+    width: 200px;
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    gap: 100px;
+    margin-bottom: 5rem;
+
+}
+
+.info{
+    width:150px;
+    text-align:center;
+}
+
+.secondmid {
+  background: #e5e7eb;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 800px;
+  text-align: left;
+}
+
+.person {
+  font-size: 20px;
+  margin-top: 10px;
+  align-self: flex-end;
+  margin-right: 300px;
+  font-weight: 900;
+}
+
+.thirdmid{
+    background: #3882F6;
+    padding:40px;
+    border:20px;
+    margin:60px;
+    width:800px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+}
+.midcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdmid button{
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    width:100px;
+    height:40px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+    padding: 30px;
+}
